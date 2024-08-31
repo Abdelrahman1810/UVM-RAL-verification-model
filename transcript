@@ -1,0 +1,732 @@
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile {C:/Users/abdel/Desktop/New folder/New folder/full one/UVM_RAL_DMA/asas.mpf}
+# Loading project asas
+do run.tcl
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:12:50 on Aug 31,2024
+# vlog -reportprogress 300 shared_pkg.sv 
+# -- Compiling package shared_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:12:50 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:12:50 on Aug 31,2024
+# vlog -reportprogress 300 design.sv 
+# -- Compiling module UART_Registers
+# 
+# Top level modules:
+# 	UART_Registers
+# End time: 04:12:50 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:12:50 on Aug 31,2024
+# vlog -reportprogress 300 interface.sv 
+# -- Compiling interface interf
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:12:50 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:12:50 on Aug 31,2024
+# vlog -reportprogress 300 sequenceItem.sv 
+# -- Compiling package sequenceItem_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) sequenceItem.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:12:51 on Aug 31,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:12:51 on Aug 31,2024
+# vlog -reportprogress 300 sequencer.sv 
+# -- Compiling package sequencer_pkg
+# -- Importing package sequenceItem_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) sequencer.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:12:51 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:12:51 on Aug 31,2024
+# vlog -reportprogress 300 driver.sv 
+# -- Compiling package driver_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) driver.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package sequenceItem_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:12:51 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:12:52 on Aug 31,2024
+# vlog -reportprogress 300 monitor.sv 
+# -- Compiling package monitor_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) monitor.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package sequenceItem_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:12:52 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:12:52 on Aug 31,2024
+# vlog -reportprogress 300 reg.sv 
+# -- Compiling package reg_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) reg.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:12:52 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:12:52 on Aug 31,2024
+# vlog -reportprogress 300 reg_block.sv 
+# -- Compiling package reg_block_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) reg_block.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package reg_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:12:53 on Aug 31,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:12:53 on Aug 31,2024
+# vlog -reportprogress 300 sequences.sv 
+# -- Compiling package sequences_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) sequences.sv(10): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package sequenceItem_pkg
+# -- Importing package sequencer_pkg
+# -- Importing package shared_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:12:53 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:12:53 on Aug 31,2024
+# vlog -reportprogress 300 reg_sequence.sv 
+# -- Compiling package reg_sequence_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) reg_sequence.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package reg_block_pkg
+# -- Importing package reg_pkg
+# -- Importing package sequenceItem_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:12:53 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:12:53 on Aug 31,2024
+# vlog -reportprogress 300 adapter.sv 
+# -- Compiling package adapter_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) adapter.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package sequences_pkg
+# -- Importing package sequenceItem_pkg
+# -- Importing package sequencer_pkg
+# -- Importing package shared_pkg
+# -- Importing package reg_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:12:54 on Aug 31,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:12:54 on Aug 31,2024
+# vlog -reportprogress 300 agent.sv 
+# -- Compiling package agent_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) agent.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package sequences_pkg
+# -- Importing package sequenceItem_pkg
+# -- Importing package sequencer_pkg
+# -- Importing package shared_pkg
+# -- Importing package driver_pkg
+# -- Importing package monitor_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:12:54 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:12:54 on Aug 31,2024
+# vlog -reportprogress 300 env.sv 
+# -- Compiling package env_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) env.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package reg_block_pkg
+# -- Importing package reg_pkg
+# -- Importing package agent_pkg
+# -- Importing package sequences_pkg
+# -- Importing package sequenceItem_pkg
+# -- Importing package sequencer_pkg
+# -- Importing package shared_pkg
+# -- Importing package driver_pkg
+# -- Importing package monitor_pkg
+# -- Importing package adapter_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:12:54 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:12:54 on Aug 31,2024
+# vlog -reportprogress 300 test.sv 
+# -- Compiling package test_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) test.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package env_pkg
+# -- Importing package reg_block_pkg
+# -- Importing package reg_pkg
+# -- Importing package agent_pkg
+# -- Importing package sequences_pkg
+# -- Importing package sequenceItem_pkg
+# -- Importing package sequencer_pkg
+# -- Importing package shared_pkg
+# -- Importing package driver_pkg
+# -- Importing package monitor_pkg
+# -- Importing package adapter_pkg
+# -- Importing package reg_sequence_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:12:55 on Aug 31,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:12:55 on Aug 31,2024
+# vlog -reportprogress 300 top.sv 
+# ** Note: (vlog-2286) top.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling package top_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Importing package test_pkg
+# -- Importing package env_pkg
+# -- Importing package reg_block_pkg
+# -- Importing package reg_pkg
+# -- Importing package agent_pkg
+# -- Importing package sequences_pkg
+# -- Importing package sequenceItem_pkg
+# -- Importing package sequencer_pkg
+# -- Importing package shared_pkg
+# -- Importing package driver_pkg
+# -- Importing package monitor_pkg
+# -- Importing package adapter_pkg
+# -- Importing package reg_sequence_pkg
+# -- Compiling module tbench_top
+# 
+# Top level modules:
+# 	tbench_top
+# End time: 04:12:55 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tbench_top 
+# Start time: 04:12:55 on Aug 31,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.sequenceItem_pkg(fast)
+# Loading work.reg_pkg(fast)
+# Loading work.reg_block_pkg(fast)
+# Loading work.reg_sequence_pkg(fast)
+# Loading work.shared_pkg(fast)
+# Loading work.sequencer_pkg(fast)
+# Loading work.sequences_pkg(fast)
+# Loading work.adapter_pkg(fast)
+# Loading work.interf(fast)
+# Loading work.monitor_pkg(fast)
+# Loading work.driver_pkg(fast)
+# Loading work.agent_pkg(fast)
+# Loading work.env_pkg(fast)
+# Loading work.test_pkg(fast)
+# Loading work.top_sv_unit(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.tbench_top(fast)
+# Loading work.interf(fast__2)
+# Loading work.UART_Registers(fast)
+# ** Warning: (vsim-8637) A modport ('MONITOR') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /monitor_pkg File: monitor.sv Line: 34
+# ** Warning: (vsim-8637) A modport ('DRIVER') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /driver_pkg::driver File: driver.sv Line: 40
+# ** Warning: (vsim-8637) A modport ('DRIVER') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /driver_pkg::driver File: driver.sv Line: 41
+# ** Warning: (vsim-8637) A modport ('DRIVER') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /driver_pkg::driver File: driver.sv Line: 43
+# ** Warning: (vsim-8637) A modport ('DRIVER') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /driver_pkg::driver File: driver.sv Line: 44
+# ** Warning: (vsim-8637) A modport ('DRIVER') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /driver_pkg::driver File: driver.sv Line: 45
+# ** Warning: (vsim-8637) A modport ('DRIVER') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /driver_pkg::driver File: driver.sv Line: 49
+# ** Warning: (vsim-8637) A modport ('DRIVER') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /driver_pkg::driver File: driver.sv Line: 53
+# Loading C:/questasim64_2021.1/uvm-1.1d\win64\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test test...
+# include_coverage not located
+#   did you mean recording_detail?
+# UVM_INFO test.sv(55) @ 0: uvm_test_top [test] ---------------------reg_seq start------------------
+# Design WR addr 4000c000 Data 52a357c8
+# Design WR addr 4000c004 Data f4fca233
+# Design WR addr 4000c008 Data d6a3c78b
+# Design RD addr 4000c000 Data 52a357c8
+# Design RD addr 4000c004 Data f4fca233
+# Design RD addr 4000c008 Data d6a3c78b
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1800) @ 23: reporter [RegModel] Target bus does not support byte enabling, and the field 'blk.reg_UART0_DR_R.DATA' is not the only field within the entire bus width. Individual field access will not be available. Accessing complete register instead.
+# Design WR addr 4000c000 Data ac
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1800) @ 27: reporter [RegModel] Target bus does not support byte enabling, and the field 'blk.reg_UART0_FR_R.TXFF' is not the only field within the entire bus width. Individual field access will not be available. Accessing complete register instead.
+# Design WR addr 4000c008 Data 20
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1800) @ 31: reporter [RegModel] Target bus does not support byte enabling, and the field 'blk.reg_UART0_DR_R.DATA' is not the only field within the entire bus width. Individual field access will not be available. Accessing complete register instead.
+# Design RD addr 4000c000 Data ac
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1800) @ 35: reporter [RegModel] Target bus does not support byte enabling, and the field 'blk.reg_UART0_FR_R.TXFF' is not the only field within the entire bus width. Individual field access will not be available. Accessing complete register instead.
+# Design RD addr 4000c008 Data 20
+# UVM_INFO test.sv(58) @ 39: uvm_test_top [test] ---------------------rst_seq start------------------
+# UVM_INFO test.sv(61) @ 77: uvm_test_top [test] ---------------------write_seq start------------------
+# Design WR addr 4000c008 Data 539df20e
+# Design WR addr 4000c004 Data 1c4607dc
+# Design WR addr 4000c004 Data abb735df
+# Design WR addr 4000c004 Data e53f5f8f
+# Design WR addr 4000c000 Data 1f9b7816
+# UVM_INFO test.sv(64) @ 97: uvm_test_top [test] ---------------------read_seq start------------------
+# Design RD addr 4000c000 Data 1f9b7816
+# Design RD addr 4000c000 Data 1f9b7816
+# Design RD addr 4000c004 Data e53f5f8f
+# Design RD addr 4000c000 Data 1f9b7816
+# Design RD addr 4000c008 Data 539df20e
+# UVM_INFO test.sv(67) @ 117: uvm_test_top [test] ---------------------rst_seq start------------------
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 205: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO test.sv(44) @ 205: uvm_test_top [test] ---------------------------------------
+# UVM_INFO test.sv(45) @ 205: uvm_test_top [test] ----           TEST PASS           ----
+# UVM_INFO test.sv(46) @ 205: uvm_test_top [test] ---------------------------------------
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   12
+# UVM_WARNING :    4
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [RegModel]     4
+# [TEST_DONE]     1
+# [test]     8
+# ** Note: $finish    : C:/questasim64_2021.1/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 205 ns  Iteration: 53  Instance: /tbench_top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_2021.1/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:14:23 on Aug 31,2024
+# vlog -reportprogress 300 code\shared_pkg.sv 
+# -- Compiling package shared_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:14:23 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:14:23 on Aug 31,2024
+# vlog -reportprogress 300 code\design.sv 
+# -- Compiling module UART_Registers
+# 
+# Top level modules:
+# 	UART_Registers
+# End time: 04:14:23 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:14:23 on Aug 31,2024
+# vlog -reportprogress 300 code\interface.sv 
+# -- Compiling interface interf
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:14:23 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:14:23 on Aug 31,2024
+# vlog -reportprogress 300 code\sequenceItem.sv 
+# -- Compiling package sequenceItem_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) code\sequenceItem.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:14:24 on Aug 31,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:14:24 on Aug 31,2024
+# vlog -reportprogress 300 code\sequencer.sv 
+# -- Compiling package sequencer_pkg
+# -- Importing package sequenceItem_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) code\sequencer.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:14:24 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:14:24 on Aug 31,2024
+# vlog -reportprogress 300 code\driver.sv 
+# -- Compiling package driver_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) code\driver.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package sequenceItem_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:14:25 on Aug 31,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:14:25 on Aug 31,2024
+# vlog -reportprogress 300 code\monitor.sv 
+# -- Compiling package monitor_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) code\monitor.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package sequenceItem_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:14:25 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:14:25 on Aug 31,2024
+# vlog -reportprogress 300 code\reg.sv 
+# -- Compiling package reg_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) code\reg.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:14:25 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:14:25 on Aug 31,2024
+# vlog -reportprogress 300 code\reg_block.sv 
+# -- Compiling package reg_block_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) code\reg_block.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package reg_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:14:26 on Aug 31,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:14:26 on Aug 31,2024
+# vlog -reportprogress 300 code\sequences.sv 
+# -- Compiling package sequences_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) code\sequences.sv(10): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package sequenceItem_pkg
+# -- Importing package sequencer_pkg
+# -- Importing package shared_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:14:26 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:14:26 on Aug 31,2024
+# vlog -reportprogress 300 code\reg_sequence.sv 
+# -- Compiling package reg_sequence_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) code\reg_sequence.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package reg_block_pkg
+# -- Importing package reg_pkg
+# -- Importing package sequenceItem_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:14:27 on Aug 31,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:14:27 on Aug 31,2024
+# vlog -reportprogress 300 code\adapter.sv 
+# -- Compiling package adapter_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) code\adapter.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package sequences_pkg
+# -- Importing package sequenceItem_pkg
+# -- Importing package sequencer_pkg
+# -- Importing package shared_pkg
+# -- Importing package reg_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:14:27 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:14:27 on Aug 31,2024
+# vlog -reportprogress 300 code\agent.sv 
+# -- Compiling package agent_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) code\agent.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package sequences_pkg
+# -- Importing package sequenceItem_pkg
+# -- Importing package sequencer_pkg
+# -- Importing package shared_pkg
+# -- Importing package driver_pkg
+# -- Importing package monitor_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:14:27 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:14:27 on Aug 31,2024
+# vlog -reportprogress 300 code\env.sv 
+# -- Compiling package env_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) code\env.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package reg_block_pkg
+# -- Importing package reg_pkg
+# -- Importing package agent_pkg
+# -- Importing package sequences_pkg
+# -- Importing package sequenceItem_pkg
+# -- Importing package sequencer_pkg
+# -- Importing package shared_pkg
+# -- Importing package driver_pkg
+# -- Importing package monitor_pkg
+# -- Importing package adapter_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:14:28 on Aug 31,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:14:28 on Aug 31,2024
+# vlog -reportprogress 300 code\test.sv 
+# -- Compiling package test_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) code\test.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package env_pkg
+# -- Importing package reg_block_pkg
+# -- Importing package reg_pkg
+# -- Importing package agent_pkg
+# -- Importing package sequences_pkg
+# -- Importing package sequenceItem_pkg
+# -- Importing package sequencer_pkg
+# -- Importing package shared_pkg
+# -- Importing package driver_pkg
+# -- Importing package monitor_pkg
+# -- Importing package adapter_pkg
+# -- Importing package reg_sequence_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:14:28 on Aug 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 04:14:28 on Aug 31,2024
+# vlog -reportprogress 300 code\top.sv 
+# ** Note: (vlog-2286) code\top.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# ** Warning: code\top.sv(1): (vlog-13233) Design unit "top_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+# -- Compiling package top_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Importing package test_pkg
+# -- Importing package env_pkg
+# -- Importing package reg_block_pkg
+# -- Importing package reg_pkg
+# -- Importing package agent_pkg
+# -- Importing package sequences_pkg
+# -- Importing package sequenceItem_pkg
+# -- Importing package sequencer_pkg
+# -- Importing package shared_pkg
+# -- Importing package driver_pkg
+# -- Importing package monitor_pkg
+# -- Importing package adapter_pkg
+# -- Importing package reg_sequence_pkg
+# -- Compiling module tbench_top
+# 
+# Top level modules:
+# 	tbench_top
+# End time: 04:14:29 on Aug 31,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/abdel/Desktop/New folder/New folder/full one/UVM_RAL_DMA/asas.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/abdel/Desktop/New folder/New folder/full one/UVM_RAL_DMA/asas.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/abdel/Desktop/New folder/New folder/full one/UVM_RAL_DMA/asas.mpf).  File can not be renamed.
+# End time: 04:14:37 on Aug 31,2024, Elapsed time: 0:01:42
+# Errors: 3, Warnings: 10
+# vsim -voptargs="+acc" work.tbench_top 
+# Start time: 04:14:37 on Aug 31,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.sequenceItem_pkg(fast)
+# Loading work.reg_pkg(fast)
+# Loading work.reg_block_pkg(fast)
+# Loading work.reg_sequence_pkg(fast)
+# Loading work.shared_pkg(fast)
+# Loading work.sequencer_pkg(fast)
+# Loading work.sequences_pkg(fast)
+# Loading work.adapter_pkg(fast)
+# Loading work.interf(fast)
+# Loading work.monitor_pkg(fast)
+# Loading work.driver_pkg(fast)
+# Loading work.agent_pkg(fast)
+# Loading work.env_pkg(fast)
+# Loading work.test_pkg(fast)
+# Loading work.top_sv_unit(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.tbench_top(fast)
+# Loading work.interf(fast__2)
+# Loading work.UART_Registers(fast)
+# ** Warning: (vsim-8637) A modport ('MONITOR') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /monitor_pkg File: code/monitor.sv Line: 34
+# ** Warning: (vsim-8637) A modport ('DRIVER') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /driver_pkg::driver File: code/driver.sv Line: 40
+# ** Warning: (vsim-8637) A modport ('DRIVER') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /driver_pkg::driver File: code/driver.sv Line: 41
+# ** Warning: (vsim-8637) A modport ('DRIVER') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /driver_pkg::driver File: code/driver.sv Line: 43
+# ** Warning: (vsim-8637) A modport ('DRIVER') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /driver_pkg::driver File: code/driver.sv Line: 44
+# ** Warning: (vsim-8637) A modport ('DRIVER') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /driver_pkg::driver File: code/driver.sv Line: 45
+# ** Warning: (vsim-8637) A modport ('DRIVER') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /driver_pkg::driver File: code/driver.sv Line: 49
+# ** Warning: (vsim-8637) A modport ('DRIVER') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /driver_pkg::driver File: code/driver.sv Line: 53
+# Loading C:/questasim64_2021.1/uvm-1.1d\win64\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test test...
+# include_coverage not located
+#   did you mean recording_detail?
+# UVM_INFO code\test.sv(55) @ 0: uvm_test_top [test] ---------------------reg_seq start------------------
+# Design WR addr 4000c000 Data 52a357c8
+# Design WR addr 4000c004 Data f4fca233
+# Design WR addr 4000c008 Data d6a3c78b
+# Design RD addr 4000c000 Data 52a357c8
+# Design RD addr 4000c004 Data f4fca233
+# Design RD addr 4000c008 Data d6a3c78b
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1800) @ 23: reporter [RegModel] Target bus does not support byte enabling, and the field 'blk.reg_UART0_DR_R.DATA' is not the only field within the entire bus width. Individual field access will not be available. Accessing complete register instead.
+# Design WR addr 4000c000 Data ac
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1800) @ 27: reporter [RegModel] Target bus does not support byte enabling, and the field 'blk.reg_UART0_FR_R.TXFF' is not the only field within the entire bus width. Individual field access will not be available. Accessing complete register instead.
+# Design WR addr 4000c008 Data 20
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1800) @ 31: reporter [RegModel] Target bus does not support byte enabling, and the field 'blk.reg_UART0_DR_R.DATA' is not the only field within the entire bus width. Individual field access will not be available. Accessing complete register instead.
+# Design RD addr 4000c000 Data ac
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1800) @ 35: reporter [RegModel] Target bus does not support byte enabling, and the field 'blk.reg_UART0_FR_R.TXFF' is not the only field within the entire bus width. Individual field access will not be available. Accessing complete register instead.
+# Design RD addr 4000c008 Data 20
+# UVM_INFO code\test.sv(58) @ 39: uvm_test_top [test] ---------------------rst_seq start------------------
+# UVM_INFO code\test.sv(61) @ 77: uvm_test_top [test] ---------------------write_seq start------------------
+# Design WR addr 4000c008 Data 539df20e
+# Design WR addr 4000c004 Data 1c4607dc
+# Design WR addr 4000c004 Data abb735df
+# Design WR addr 4000c004 Data e53f5f8f
+# Design WR addr 4000c000 Data 1f9b7816
+# UVM_INFO code\test.sv(64) @ 97: uvm_test_top [test] ---------------------read_seq start------------------
+# Design RD addr 4000c000 Data 1f9b7816
+# Design RD addr 4000c000 Data 1f9b7816
+# Design RD addr 4000c004 Data e53f5f8f
+# Design RD addr 4000c000 Data 1f9b7816
+# Design RD addr 4000c008 Data 539df20e
+# UVM_INFO code\test.sv(67) @ 117: uvm_test_top [test] ---------------------rst_seq start------------------
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 205: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO code\test.sv(44) @ 205: uvm_test_top [test] ---------------------------------------
+# UVM_INFO code\test.sv(45) @ 205: uvm_test_top [test] ----           TEST PASS           ----
+# UVM_INFO code\test.sv(46) @ 205: uvm_test_top [test] ---------------------------------------
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   12
+# UVM_WARNING :    4
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [RegModel]     4
+# [TEST_DONE]     1
+# [test]     8
+# ** Note: $finish    : C:/questasim64_2021.1/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 205 ns  Iteration: 53  Instance: /tbench_top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_2021.1/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/abdel/Desktop/New folder/New folder/full one/UVM_RAL_DMA/asas.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/abdel/Desktop/New folder/New folder/full one/UVM_RAL_DMA/asas.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/abdel/Desktop/New folder/New folder/full one/UVM_RAL_DMA/asas.mpf).  File can not be renamed.
+# End time: 04:15:44 on Aug 31,2024, Elapsed time: 0:01:07
+# Errors: 3, Warnings: 9
